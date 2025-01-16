@@ -1,5 +1,6 @@
 plugins {
-    id 'com.jfrog.bintray' version '1.1'
+    id 'java-gradle-plugin'
+    id "com.gradle.plugin-publish" version "0.19.0"
     id 'com.github.jruby-gradle.base' version '0.1.5'
     id 'java'
 }
